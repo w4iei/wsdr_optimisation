@@ -15,5 +15,7 @@ See requirements.txt for required.
 This code leverages NUSSL, but it is important that your virtual environment not have access to the released version of NUSSL or MUSEVAL, as this uses a hacked version (included) that allows for adjusting WSDR weights.
 Same goes for museval
 
+Extract museval.zip and nussl.zip
+
 # Results
 See sdr_weighting_study directory for results.
