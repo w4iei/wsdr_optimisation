@@ -431,6 +431,8 @@ def test_sdr_weights(weights):
     error_distance = calculate_sum_distance(results_headers, results_rows)
     print('Error Distance: {}'.format(error_distance))
 
+    if not os.path.exists('sdr_weighting_study'):
+        os.mkdir('sdr_weighting_study')
     cache_dir = os.path.join('sdr_weighting_study', 'cache')
     if not os.path.exists(cache_dir):
         os.mkdir(cache_dir)
